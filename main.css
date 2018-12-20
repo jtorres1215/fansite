@@ -1,0 +1,99 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Justin's Fan Site</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		body {
+			font-family:Geneva,Tahoma,sans-serif;
+			font-size:12px;
+			line-height:20px;
+			margin:0;
+		}
+		img {
+			width:1865px;
+			height:400px;
+			display:flex;
+			justify-content: center;
+			flex-direction: column;
+			opacity: 0.75; 
+
+		}
+		#wrapper {
+			width:100%;
+			border:3px solid gold;
+			display:flex;
+		}
+		#main {
+			width:650px;
+			margin-bottom:30px;
+			margin-left:auto;
+			margin-right:auto;
+			border:3px solid orange;
+			background-color:gold;
+			
+		}
+		#nav {
+		display:flex; 
+		flex-direction:row;
+		justify-content:space-around;
+		border: 3px solid gray;
+		width:100%;
+		background-color:rgba(230, 0, 0, 0.67);
+		padding:10px;
+		}
+		a {
+			color:teal;
+			text-decoration:orange;
+		}
+		a:hover {
+			text-decoration:underline;
+		}
+		#nav a {
+			font-family:Helvetica,sans-serif;
+			font-weight:bold;
+			color:#004118;
+			text-transform:uppercase;
+			margin-right:10px;
+			padding:10px;
+		}
+		#nav a:hover {
+			color:blue;
+			text-decoration:orange;
+			border-bottom:3px solid gold;
+		}
+		#footer {
+			margin-bottom:30px;
+			margin-left:auto;
+			margin-right:auto;
+			color:red;
+			padding:10px;
+		}
+		#banner {
+			border: 3px solid red;
+			padding:10px; 
+		}
+		body {
+			background-image:url(https://cdn.ndtv.com/tech/gadgets/kratos_god_of_war.jpg?output-quality=70&output-format=webp);
+			background-size:100%;
+			background-position: fixed;
+		}
+		h1 {
+			color:red;
+			display: flex;
+			justify-content: center;
+			font-size: 50px;
+		}
+		h2 {
+			color:red;
+			display: flex;
+			justify-content: center;
+			font-size: 30px;
+		}
+		#main {
+			opacity:0.75;
+			padding:10px;
+		}
+		
+	</style>
